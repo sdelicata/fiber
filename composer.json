@@ -1,0 +1,13 @@
+{
+    "name": "simondel/test-fiber",
+    "repositories": [
+        {"type": "git", "url": "https://github.com/fiberphp/fiber-core.git"},
+        {"type": "git", "url": "https://github.com/fiberphp/fiber-http.git"}
+    ],
+    "require": {
+        "fiberphp/core": "dev-master",
+        "fiberphp/http": "dev-master"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
